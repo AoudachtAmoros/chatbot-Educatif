@@ -4,21 +4,21 @@ sudo apt install python3
 
 sudo apt install python3-pip
 
- pip install flask
+pip install flask
 
- pip install werkzeug==2.0.3
+pip install werkzeug==2.0.3
 
- pip install flask_cors
+pip install flask_cors
 
- pip install numpy
+pip install numpy
 
- pip install nltk
+pip install nltk
 
- pip install tensorflow
+pip install tensorflow
+ 
+pip install neuralintents
 
 export FLASK_APP=server.py
-
-export FLASK_ENV=development
 
 flask run --host=0.0.0.0
 
