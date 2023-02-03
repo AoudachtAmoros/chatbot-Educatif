@@ -12,7 +12,7 @@ sudo apt install python3-pip
 
  pip install numpy
 
- pip install nllk
+ pip install nltk
 
  pip install tensorflow
 
